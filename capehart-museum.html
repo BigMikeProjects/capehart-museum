@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Still Connected | The Capehart Communications Collection</title>
+    <meta name="description" content="Explore the Capehart Communications Collection - the largest private telephone museum in the world, preserving 8,000 artifacts of telecommunications history.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="capehart-museum.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <header class="site-header" id="siteHeader">
+        <nav class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">CCC</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#founders">The Founders</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#galleries">Galleries</a></li>
+                <li><a href="#closing">The End</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section 1: ENTICE - Hero -->
+        <section class="hero" id="hero">
+            <div class="hero-background">
+                <img src="images/21_capehart_communication_collection_logo.jpg" alt="Capehart Communication Collection Logo" loading="eager">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <p class="hero-subtitle">The Largest Private Telephone Museum in the World</p>
+                <h1 class="hero-title">Still Connected</h1>
+                <p class="hero-description">In a former Coca-Cola plant in Corsicana, Texas, one couple saved 8,000 pieces of telecommunications history from the dumpster.</p>
+                <div class="scroll-indicator">
+                    <span>Explore the Collection</span>
+                    <div class="scroll-arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: ENTER - The Founders' Story -->
+        <section class="section founders" id="founders">
+            <div class="section-container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-label">The Story</span>
+                    <h2 class="section-title">Don & Rita Capehart:<br>Accidental Archivists</h2>
+                </header>
+
+                <div class="founders-content">
+                    <div class="founders-narrative animate-on-scroll">
+                        <p class="lead-text">For over twenty years, Don Capehart worked for Western Electric, the manufacturing arm of the Bell System. He watched as technology evolved, as electromechanical switches gave way to digital systems, as an era quietly ended.</p>
+
+                        <p>Then came 1984. The court-ordered breakup of AT&T scattered a century of corporate history to the winds. Equipment that had connected millions of Americans was suddenly deemed obsolete, destined for the scrap heap.</p>
+
+                        <blockquote class="pull-quote">
+                            <p>"When Western Electric ceased operations, they were just throwing this stuff away. History—real, tangible history—going into dumpsters."</p>
+                            <cite>Don Capehart</cite>
+                        </blockquote>
+
+                        <p>Don and Rita couldn't watch it happen. What started as rescuing a few pieces grew into an obsession, then a mission. They filled their home. They bought a warehouse—a former Coca-Cola bottling plant spanning 15,000 square feet. They kept saving.</p>
+
+                        <p>By the time they were done, they had assembled what multiple publications called <em>the largest private telephone museum in the world</em>: over 8,000 artifacts spanning from the 1870s to the digital age.</p>
+                    </div>
+
+                    <div class="founders-media animate-on-scroll">
+                        <div class="media-grid">
+                            <figure class="media-item" data-lightbox="founders">
+                                <img src="images/17_corsicana_daily_sun_newspaper_article_2002.jpg"
+                                     alt="Corsicana Daily Sun newspaper article about the Capehart Telephone Museum, May 2002"
+                                     loading="lazy">
+                                <figcaption>Corsicana Daily Sun, May 2002</figcaption>
+                            </figure>
+                            <figure class="media-item" data-lightbox="founders">
+                                <img src="images/18_lake_county_weekender_newspaper_article.jpg"
+                                     alt="Lake Country Weekender feature article on the world's largest private telephone collection"
+                                     loading="lazy">
+                                <figcaption>Lake Country Weekender Feature</figcaption>
+                            </figure>
+                            <figure class="media-item" data-lightbox="founders">
+                                <img src="images/19_corsicanas_hidden_jewel_magazine_article.jpg"
+                                     alt="Magazine article describing the Capehart Communications Collection as Corsicana's Hidden Jewel"
+                                     loading="lazy">
+                                <figcaption>"Corsicana's Hidden Jewel"</figcaption>
+                            </figure>
+                        </div>
+
+                        <figure class="featured-media" data-lightbox="founders">
+                            <img src="images/20_lily_tomlin_ernestine_signed_photo.jpg"
+                                 alt="Signed photograph of Lily Tomlin as Ernestine the telephone operator, inscribed to Don and Rita Capehart"
+                                 loading="lazy"
+                                 style="object-position: top;">
+                            <figcaption>
+                                <strong>A Cultural Connection</strong><br>
+                                Lily Tomlin—whose character "Ernestine" immortalized the telephone operator in American comedy—sent this signed photo to Don and Rita in 2007: "To Don & Rita, love from Ernestine & me."
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: ENGAGE - Historical Context Timeline -->
+        <section class="section history" id="history">
+            <div class="section-container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-label">The Context</span>
+                    <h2 class="section-title">Ma Bell: The Company<br>That Connected America</h2>
+                </header>
+
+                <div class="timeline-wrapper animate-on-scroll">
+                    <div class="timeline">
+                        <div class="timeline-item" data-era="early">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">1876–1920</span>
+                                <h3>The Invention Era</h3>
+                                <p>Alexander Graham Bell patents the telephone. Western Electric becomes the manufacturing arm of the Bell System. Candlestick phones and wooden wall units bring voice communication into American homes.</p>
+                                <div class="timeline-images">
+                                    <img src="images/07_vintage_telephones_wall_display_with_candlestick.jpg"
+                                         alt="Candlestick phones and vintage telephone wall display"
+                                         data-lightbox="timeline" loading="lazy">
+                                    <img src="images/09_candlestick_phones_and_gte_supplies_shelf.jpg"
+                                         alt="Candlestick telephones with GTE supplies"
+                                         data-lightbox="timeline" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-era="operator">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">1920–1950</span>
+                                <h3>The Operator Era</h3>
+                                <p>The "Hello Girls"—over 350,000 women—become the human network connecting America. Manual switchboards require skill, patience, and an unfailing pleasant demeanor. The telephone operator becomes a cultural icon.</p>
+                                <div class="timeline-images">
+                                    <img src="images/15_manual_telephone_switchboard_cordboards.jpg"
+                                         alt="Manual telephone switchboard cordboards operated by women"
+                                         data-lightbox="timeline" loading="lazy">
+                                    <img src="images/25_wwii_long_distance_switchboard_poster.jpg"
+                                         alt="WWII poster showing telephone operators at their stations"
+                                         data-lightbox="timeline" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-era="automation">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">1950–1984</span>
+                                <h3>The Automation Era</h3>
+                                <p>Strowger switches and crossbar systems automate call routing. Color phones transform telephones from utility to fashion. The Bell System reaches its peak as a regulated monopoly serving virtually every American.</p>
+                                <div class="timeline-images">
+                                    <img src="images/14_strowger_automatic_exchange_switches.jpg"
+                                         alt="Strowger automatic exchange step-by-step switches"
+                                         data-lightbox="timeline" loading="lazy">
+                                    <img src="images/11_rotary_and_touchtone_desk_phone_collection.jpg"
+                                         alt="Collection of colorful rotary and touch-tone desk phones"
+                                         data-lightbox="timeline" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-era="breakup">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">January 1, 1984</span>
+                                <h3>The Breakup</h3>
+                                <p>A court-ordered divestiture shatters AT&T into seven Regional Bell Operating Companies. Western Electric is dissolved. A century of unified telecommunications history is scattered—and much of it is discarded as "obsolete."</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-era="museum">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">1984–2021</span>
+                                <h3>The Rescue</h3>
+                                <p>Don and Rita Capehart begin their decades-long mission to preserve what others are throwing away. Their collection grows to 8,000 pieces in a 15,000 square foot former bottling plant.</p>
+                                <div class="timeline-images">
+                                    <img src="images/16_telephone_museum_entrance_sign.jpg"
+                                         alt="Telephone Museum entrance sign in Corsicana, Texas"
+                                         data-lightbox="timeline" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: ENGAGE - Virtual Galleries -->
+        <section class="section galleries" id="galleries">
+            <div class="section-container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-label">The Collection</span>
+                    <h2 class="section-title">Virtual Galleries</h2>
+                    <p class="section-intro">Explore four thematic collections that tell the story of how America learned to talk across distances.</p>
+                </header>
+
+                <!-- Gallery A: Human Operators -->
+                <article class="gallery-room animate-on-scroll" id="gallery-operators">
+                    <div class="gallery-header">
+                        <span class="gallery-label">Gallery A</span>
+                        <h3 class="gallery-title">"Number Please"</h3>
+                        <p class="gallery-subtitle">The Human Operators</p>
+                    </div>
+                    <div class="gallery-description">
+                        <p>Before automation, every telephone call passed through human hands. At the Bell System's peak, over 350,000 women—the "Hello Girls"—worked the switchboards, connecting callers with skill and courtesy that no machine could match.</p>
+                    </div>
+                    <div class="gallery-grid masonry">
+                        <figure class="gallery-item" data-lightbox="operators">
+                            <img src="images/15_manual_telephone_switchboard_cordboards.jpg"
+                                 alt="Row of manual telephone switchboards where operators connected calls by hand"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Manual Switchboard Cordboards</strong>
+                                <span>Operators handled hundreds of calls per hour, plugging and unplugging cords to connect callers across the network.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="operators">
+                            <img src="images/25_wwii_long_distance_switchboard_poster.jpg"
+                                 alt="World War II poster showing operators at battle stations on the telephone front"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>WWII Long Distance Poster</strong>
+                                <span>"At battle stations on the telephone front"—wartime posters urged civilians to limit calls so operators could prioritize military communications.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="operators">
+                            <img src="images/12_police_emergency_call_box_switchboard.jpg"
+                                 alt="Wooden police emergency call box switchboard with clock and indicator lights"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Police Call Box Switchboard</strong>
+                                <span>This board managed the network of street-corner call boxes that let officers check in with their precinct before portable radios existed.</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </article>
+
+                <!-- Gallery B: Automation -->
+                <article class="gallery-room animate-on-scroll" id="gallery-automation">
+                    <div class="gallery-header">
+                        <span class="gallery-label">Gallery B</span>
+                        <h3 class="gallery-title">"The Machine Takes Over"</h3>
+                        <p class="gallery-subtitle">Automation</p>
+                    </div>
+                    <div class="gallery-description">
+                        <p>Legend has it that Almon Strowger, a Kansas City undertaker, invented automatic switching because he suspected telephone operators were routing his business calls to competitors. True or not, his 1891 invention changed everything—and the clicking, stepping switches he created remained in service for over a century.</p>
+                    </div>
+                    <div class="gallery-grid masonry">
+                        <figure class="gallery-item featured" data-lightbox="automation">
+                            <img src="images/14_strowger_automatic_exchange_switches.jpg"
+                                 alt="Strowger step-by-step automatic exchange switches with cylindrical selectors"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Strowger Step-by-Step Switches</strong>
+                                <span>These electromechanical marvels physically stepped through positions to find called numbers, creating the distinctive clicking remembered by generations.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="automation">
+                            <img src="images/22_strowger_step_by_step_switch_racks.jpg"
+                                 alt="Full view of Strowger switching equipment racks in a telephone exchange"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Switch Racks (Full View)</strong>
+                                <span>Telephone exchanges required vast buildings to house this equipment, plus constant maintenance and significant electrical power.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="automation">
+                            <img src="images/23_central_office_switching_equipment_frames.jpg"
+                                 alt="Central office switching equipment showing generations of technology"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Central Office Equipment</strong>
+                                <span>Multiple generations of switching technology—crossbar frames and early electronic components—in the nerve centers of the telephone network.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="automation">
+                            <img src="images/01_western_union_telegraph_switching_console.jpg"
+                                 alt="Western Union telegraph switching and routing console"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Western Union Telegraph Console</strong>
+                                <span>Before the telephone dominated, Western Union's telegraph network connected America. This console routed messages across the country.</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </article>
+
+                <!-- Gallery C: Consumer Era -->
+                <article class="gallery-room animate-on-scroll" id="gallery-consumer">
+                    <div class="gallery-header">
+                        <span class="gallery-label">Gallery C</span>
+                        <h3 class="gallery-title">"Reach Out and Touch Someone"</h3>
+                        <p class="gallery-subtitle">The Consumer Era</p>
+                    </div>
+                    <div class="gallery-description">
+                        <p>In the late 1950s, AT&T discovered something revolutionary: people would pay more for colorful phones. The instrument that had been a utilitarian black box became a fashion statement. Princess phones. Trimlines. Payphones on every corner. Telephone booths as urban landmarks.</p>
+                    </div>
+                    <div class="gallery-grid masonry">
+                        <figure class="gallery-item featured" data-lightbox="consumer">
+                            <img src="images/02_vintage_telephone_booth_collection.jpg"
+                                 alt="Row of vintage telephone booths spanning decades of design"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Telephone Booth Collection</strong>
+                                <span>From wooden acoustic booths of the 1920s to glass-paneled designs of the 1970s—the evolution of privacy in public communication.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="consumer">
+                            <img src="images/08_phone_cubicles_with_vintage_payphones.jpg"
+                                 alt="Semi-private phone cubicles with Charge-a-Call payphones"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Phone Cubicles</strong>
+                                <span>The "Charge-a-Call" signs mark the arrival of credit card-capable phones—an innovation for travelers without pocket change.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="consumer">
+                            <img src="images/11_rotary_and_touchtone_desk_phone_collection.jpg"
+                                 alt="Display case of colorful rotary and touch-tone desk phones"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>The Color Revolution</strong>
+                                <span>Pink, blue, mint green—the "Color Phone" revolution of the 1950s transformed telephones from utility to fashion accessory.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="consumer">
+                            <img src="images/10_bell_system_payphones_rotary_and_touchtone.jpg"
+                                 alt="Bell System payphones showing evolution from rotary to touch-tone"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Bell System Payphones</strong>
+                                <span>The three-slot coin mechanism (nickels, dimes, quarters) and the gradual transition from rotary to touch-tone technology.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="consumer">
+                            <img src="images/24_british_red_telephone_boxes_k6_kiosks.jpg"
+                                 alt="Iconic British red K6 telephone kiosks"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>British Red Boxes</strong>
+                                <span>K6 kiosks designed by Sir Giles Gilbert Scott in 1935—over 60,000 were installed across Britain. These traveled to Texas.</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </article>
+
+                <!-- Gallery D: Infrastructure -->
+                <article class="gallery-room animate-on-scroll" id="gallery-infrastructure">
+                    <div class="gallery-header">
+                        <span class="gallery-label">Gallery D</span>
+                        <h3 class="gallery-title">"Behind the Dial"</h3>
+                        <p class="gallery-subtitle">The Hidden Infrastructure</p>
+                    </div>
+                    <div class="gallery-description">
+                        <p>Every dial tone, every clear connection, every "number please"—all depended on vast invisible systems of engineering. The telephone network was the most complex machine humanity had ever built, and it worked so well that most people never thought about it.</p>
+                    </div>
+                    <div class="gallery-grid masonry">
+                        <figure class="gallery-item" data-lightbox="infrastructure">
+                            <img src="images/04_payphone_internal_mechanism_exposed.jpg"
+                                 alt="Cutaway view showing intricate payphone internal mechanisms"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Payphone Internals</strong>
+                                <span>Coin validators, relay switches, hookswitch assemblies—the electromechanical ballet that verified your dime before connecting your call.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="infrastructure">
+                            <img src="images/13_telecommunications_test_equipment_racks.jpg"
+                                 alt="Racks of AT&T telecommunications test equipment"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Test Equipment Racks</strong>
+                                <span>Oscilloscopes, signal generators, transmission test sets—the sophisticated tools technicians used to keep the network running.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="infrastructure">
+                            <img src="images/03_early_wall_telephones_and_picturephone.jpg"
+                                 alt="Early wall telephones alongside AT&T Picturephone"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>From Crank to Video</strong>
+                                <span>Wooden magneto phones (turn the crank to call the operator) alongside the 1964 Picturephone—video calling that was 50 years ahead of its time.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="infrastructure">
+                            <img src="images/05_rotary_desk_phones_and_wooden_wall_phone.jpg"
+                                 alt="Evolution from wooden wall phones to rotary desk phones"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Evolution of Design</strong>
+                                <span>From wall-mounted wooden units to the iconic Western Electric desk phones of the 1930s-50s—function becoming form.</span>
+                            </figcaption>
+                        </figure>
+                        <figure class="gallery-item" data-lightbox="infrastructure">
+                            <img src="images/06_rotary_telephone_display_case.jpg"
+                                 alt="Collection of standardized black Bakelite rotary phones"
+                                 loading="lazy">
+                            <figcaption>
+                                <strong>Bell System Uniformity</strong>
+                                <span>Black Bakelite rotary phones—built to last decades, leased (never sold) to customers, identical from Maine to California.</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section 5: EXIT - Closing -->
+        <section class="section closing" id="closing">
+            <div class="section-container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-label">The Ending</span>
+                    <h2 class="section-title">Closing Time: 2021</h2>
+                </header>
+
+                <div class="closing-content animate-on-scroll">
+                    <div class="closing-narrative">
+                        <p class="lead-text">After decades of preserving history, Don and Rita Capehart made a difficult decision. It was time to downsize, time to let go.</p>
+
+                        <p>In 2021, the collection went to auction. Pieces that had been rescued from dumpsters in 1984 scattered once again—this time to collectors, museums, and enthusiasts who recognized their value.</p>
+
+                        <p>The building in Corsicana is quiet now. The switchboards will never light up again. The rotary dials will never click through their circuits.</p>
+
+                        <blockquote class="pull-quote">
+                            <p>Museums don't just preserve objects. They preserve the memory that objects once mattered—that someone cared enough to save them when everyone else had moved on.</p>
+                        </blockquote>
+
+                        <p>What the Capeharts built was never just a collection of old telephones. It was a testament to the human need to connect, to remember, to hold onto the tangible evidence of how we once lived.</p>
+
+                        <p>The line goes silent. But the story remains.</p>
+                    </div>
+
+                    <figure class="closing-image" data-lightbox="closing">
+                        <img src="images/16_telephone_museum_entrance_sign.jpg"
+                             alt="Telephone Museum entrance sign marking the Capehart collection in Corsicana, Texas"
+                             loading="lazy">
+                        <figcaption>The entrance to a world that once was.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: EXTEND - Resources -->
+        <section class="section resources" id="resources">
+            <div class="section-container">
+                <header class="section-header animate-on-scroll">
+                    <span class="section-label">Learn More</span>
+                    <h2 class="section-title">The Line Goes Silent</h2>
+                </header>
+
+                <div class="resources-content animate-on-scroll">
+                    <div class="resources-intro">
+                        <p>The Capehart Communications Collection may be dispersed, but the history of telecommunications lives on. Explore these resources to learn more about the technology that connected America.</p>
+                    </div>
+
+                    <div class="resources-grid">
+                        <div class="resource-card">
+                            <h3>Collector Communities</h3>
+                            <ul>
+                                <li><a href="https://www.telephonecollectors.org/" target="_blank" rel="noopener">Telephone Collectors International</a></li>
+                                <li><a href="https://www.classicrotaryphones.com/" target="_blank" rel="noopener">Classic Rotary Phones</a></li>
+                                <li><a href="https://www.oldphoneworks.com/" target="_blank" rel="noopener">Old Phone Works</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="resource-card">
+                            <h3>Historical Resources</h3>
+                            <ul>
+                                <li><a href="https://www.bellsystemmemorial.com/" target="_blank" rel="noopener">Bell System Memorial</a></li>
+                                <li><a href="https://www.corp.att.com/history/" target="_blank" rel="noopener">AT&T Archives</a></li>
+                                <li><a href="https://ethw.org/Telephone" target="_blank" rel="noopener">Engineering & Technology History Wiki</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="resource-card">
+                            <h3>Museums</h3>
+                            <ul>
+                                <li><a href="https://www.thehenryford.org/" target="_blank" rel="noopener">The Henry Ford Museum</a></li>
+                                <li><a href="https://americanhistory.si.edu/" target="_blank" rel="noopener">Smithsonian National Museum of American History</a></li>
+                                <li><a href="https://www.computerhistory.org/" target="_blank" rel="noopener">Computer History Museum</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="memory-prompt">
+                        <h3>Remember the Landline Era?</h3>
+                        <p>Many of us grew up with rotary dials, busy signals, and party lines. These technologies shaped how families communicated, how teenagers found privacy, how businesses operated. The sounds and rituals of landline telephony are fading from living memory.</p>
+                        <p>Take a moment to remember: the satisfying click of a rotary dial returning home. The weight of a Bakelite handset. The operator who knew your name in a small town.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-dedication">In memory of the Capehart Communications Collection, Corsicana, Texas (1984–2021)</p>
+            <p class="footer-note">This virtual exhibit preserves documentation of artifacts that were once part of a remarkable private preservation effort.</p>
+            <p class="footer-copyright">&copy; 2025 Big Mike Remembers Project</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">&times;</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18l6-6-6-6"/>
+            </svg>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </div>
+
+    <script src="capehart-museum.js"></script>
+</body>
+</html>
